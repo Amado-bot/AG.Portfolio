@@ -6,10 +6,11 @@
 
 /* brand color palette */
 :root {
-  --primary: rgb(252, 142, 200);
+  --primary:#ffa500;
   --secondary: rgb(255, 255, 255);
-  --third: rgb(91, 255, 88);
+  --third: #ffff00;
   --black:rgb(0, 0, 0);
+  --orange:#ffa500;
 }
 
 body {
@@ -34,6 +35,9 @@ header {
   flex-wrap: wrap;
   align-items: center;
   background-color: var(--primary);
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
   /* box-shadow: 0 5px 35px rgba(24, 37, 37, 0.4); */
 }
 
@@ -74,8 +78,8 @@ main {
 }
 
 .hero-banner {
-  background: rgb(118, 120, 68);
-  /* background-image: url(""); */
+  /* background:var(--third); */
+  background-image: url("../images/zeni-wall.jpeg");
   background-size: cover;
   background-position: center;
   background-blend-mode: soft-light;
@@ -93,13 +97,14 @@ main {
 }
 
 .hero-banner h2 {
-  color: var(--secondary);
+  color: var(--black);
   margin: 0;
   padding: 5px 10px;
   font-size: 2.3rem;
   line-height: 1.2;
   display: inline;
 }
+
 
 .page-wrapper {
   max-width: 88%;
@@ -113,7 +118,7 @@ main {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  align-items: stretch;
+  align-items:initial;
   justify-content: space-between;
 }
 
@@ -141,9 +146,9 @@ main {
 }
 
 .flex-item {
-  border: 5px solid var(--secondary);
-  background-color: var(--primary);
-  color: var(--tertiary);
+  border: 5px solid var(--primary);
+  /* background-color: var(--primary); */
+  color: var(--black);
   min-height: 150px;
   max-height: 150px;
   flex-basis: calc(50% - 1em);
