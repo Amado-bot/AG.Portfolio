@@ -205,6 +205,10 @@ main {
 }
 
 /* portfolio project images */
+.virtual-museum {
+ background-image: url("../images/vm-screenshot.PNG");
+}
+
 .run-buddy {
   background-image: url("../images/02-run-buddy.jpg");
 }
