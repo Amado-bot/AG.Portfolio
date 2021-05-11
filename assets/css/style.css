@@ -205,9 +205,10 @@ main {
 }
 
 /* portfolio project images */
-/* .mytype {
-   
-} */
+.mytype {
+   background-image: url("../images/Screenshot\ 2021-05-10\ 194909.png");
+}
+
 .virtual-museum {
  background-image: url("../images/vm-screenshot.PNG");
 }
